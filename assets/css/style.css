@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+    
+.container{
+    display: flex;
+}
+
+aside{
+    width: 25%;
+}
+
+.imagen img{
+    height: 3rem;
+    border-radius: 50%;
+    border: #cdcdcd solid 2px;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7rem 1.25rem 0.7rem 1.6rem;
+}
+
+.first{
+    display: flex;
+}
+
+.first-text{
+    padding-top: 0.7rem;
+    padding-left: 1.2rem;
+}
+
+.active{
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #b7b8b8;
+}
+
+.icons{
+    color: #959979;
+}
+
+.fa-regular{
+    padding-right: 0.7rem;
+}
+
+button{
+    background-color: #b2a1d9;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.9rem 1rem;
+}
+
+button:hover{
+    background-color: #695f7f;
+    cursor: pointer;
+}
+
+.new-message{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    border-top: #cdcdcd solid 1px;
+}
+
+.chats img{
+    height: 3rem;
+    border-radius: 50%;
+    border: #cdcdcd solid 2px;
+}
+
+.chat-active{
+    font-size: 0.875rem;
+    font-weight: 300;
+}
+
+.chats{
+    display: flex;
+    padding: 1.5rem;
+    border-top: #cdcdcd solid 1px;
+    padding: 1rem 1.25rem 1rem 1.6rem;
+    transition: all 0.1s ease-in-out;
+}
+
+.chats:hover{
+    background-color: #e0e0e0;
+    cursor: pointer;
+    transform:scaleX(1.03)
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-left: #cdcdcd solid 1px;
+}
+
+main img{
+    height: 17.5rem;
+    border-radius: 0.8rem;
+}
+
+main h1{
+    font-weight: 400;
+    font-size: 3rem;
+    margin-bottom: 0;
+    padding-bottom: 0.7rem;
+}
+
+main p{
+    font-size: 1rem;
+    margin: 0;
+}
